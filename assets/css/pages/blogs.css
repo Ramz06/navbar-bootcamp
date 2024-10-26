@@ -7,9 +7,14 @@
     font-style: normal;
 }
 
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
 section {
     width: 100%;
-    margin: 40px auto;
+    margin: 0 auto;
 }
 
 form {
@@ -30,7 +35,7 @@ form label {
 }
 
 input[type="text"], 
-input[type="datetime-local"], 
+input[type="date"], 
 textarea, 
 input[type="file"] {
     width: 100%;

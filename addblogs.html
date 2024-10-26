@@ -24,18 +24,19 @@
             </li>
         </ul>
     </nav>
+    <h1>Add My Project</h1>
     <section>
         <form id="blogForm">
             <label for="projectName">Project name
-            <input type="text" name="projectName" id="projectName"></label>
+            <input type="text" name="projectName" id="projectName" autocomplete="off" required></label>
             <div class="date">
                 <label for="startDate">Start Date
-                <input type="datetime-local" name="startDate" id="startDate"></label>
+                <input type="date" name="startDate" id="startDate" autocomplete="off" required></label>
                 <label for="endDate">End Date
-                <input type="datetime-local" name="endDate" id="endDate"></label>
+                <input type="date" name="endDate" id="endDate" autocomplete="off" required></label>
             </div>
             <label for="description">Description
-                <textarea type="" name="description" id="description"></textarea>
+                <textarea type="" name="description" id="description" autocomplete="off" required></textarea>
             </label> 
             <div class="option">
                 <p>Technologies</p>
@@ -54,7 +55,7 @@
             </div>
             <label for="uploadImage" class="file-upload-label">
                 <div class="file-input-wrapper">
-                    <input type="file" name="uploadImage" id="uploadImage">
+                    <input type="file" name="uploadImage" id="uploadImage" required>
                     <img src="assets/img/icons/file.png" alt="Upload Icon" class="file-icon">
                 </div>
             </label>
@@ -62,6 +63,6 @@
         </form>
     </section>
 
-    <script type="module" src="assets/js/blogs.js"></script>
+    <script type="module" src="assets/js/addBlog.js"></script>
 </body>
 </html>

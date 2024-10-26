@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Icons for NodeJS, React, HTML, CSS, and Twitter</title>
+    <!-- Font Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      crossorigin="anonymous"
+    />
+    <!-- Bootstrap Icons CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css"
+    />
+    <style>
+      /* Default icon color (dark) */
+      .icon {
+        color: #333;
+        margin: 10px;
+        transition: color 0.3s ease; /* Smooth transition for hover effect */
+      }
+
+      /* Hover effect to revert to original color */
+      .icon:hover {
+        color: initial;
+      }
+
+      /* Specific colors on hover for each icon */
+      .icon-node:hover {
+        /* background: -webkit-linear-gradient(rgba(35, 218, 114, 1) 35%, #333); */
+        background: -webkit-linear-gradient(
+          rgb(112, 243, 175) 0%,
+          rgba(35, 218, 114, 1) 35%,
+          rgba(138, 255, 0, 1) 100%
+        );
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      } /* Node.js */
+      .icon-react:hover {
+        background: -webkit-linear-gradient(
+            rgba(50,247,255,1) 0%, rgba(101,8,240,1) 35%, rgba(60,114,246,1) 100%
+        );
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      } /* React */
+      .icon-html:hover {
+        background: -webkit-linear-gradient(
+            rgb(255, 0, 0) 0%, rgba(255,205,0,1) 50%, rgb(228, 1, 1) 100%
+        );
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      } /* HTML */
+      .icon-css:hover {
+        background: -webkit-linear-gradient(
+            rgba(50,82,255,1) 0%, rgba(8,168,240,1) 35%, rgba(112,100,252,1) 100%
+        );
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      } /* CSS */
+      .icon-twitter:hover {
+        background: -webkit-linear-gradient(
+            rgba(50,82,255,1) 0%, rgba(8,168,240,1) 35%, rgba(112,100,252,1) 100%
+        );
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      } /* Twitter */
+    </style>
+  </head>
+  <body>
+    <div style="text-align: center; margin-top: 50px">
+      <h1>Icons</h1>
+
+      <!-- NodeJS Icon -->
+      <a href="https://nodejs.org" target="_blank" title="Node.js">
+        <i class="fab fa-node fa-3x icon icon-node"></i>
+      </a>
+
+      <!-- React Icon -->
+      <a href="https://reactjs.org" target="_blank" title="React">
+        <i class="fab fa-react fa-3x icon icon-react"></i>
+      </a>
+
+      <!-- HTML Icon -->
+      <a
+        href="https://developer.mozilla.org/en-US/docs/Web/HTML"
+        target="_blank"
+        title="HTML"
+      >
+        <i class="fab fa-html5 fa-3x icon icon-html"></i>
+      </a>
+
+      <!-- CSS Icon -->
+      <a
+        href="https://developer.mozilla.org/en-US/docs/Web/CSS"
+        target="_blank"
+        title="CSS"
+      >
+        <i class="fab fa-css3-alt fa-3x icon icon-css"></i>
+      </a>
+
+      <!-- Twitter Icon from Bootstrap Icons -->
+      <a href="https://twitter.com" target="_blank" title="Twitter">
+        <i class="bi bi-twitter fa-3x icon icon-twitter"></i>
+      </a>
+    </div>
+  </body>
+</html>
